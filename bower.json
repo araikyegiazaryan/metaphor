@@ -1,0 +1,27 @@
+{
+  "name": "csun-ui",
+  "version": "0.0.0",
+  "homepage": "https://github.com/csunmetalab/csun-ui",
+  "authors": [
+    "Alex Hernandez <alex@metalab.csun.edu>"
+  ],
+  "description": "A responsive UI toolkit to rapidly create prototypes & applications with CSUN branding.",
+  "main": "csun-ui.scss",
+  "keywords": [
+    "csun",
+    "csun-ui",
+    "ui-kit"
+  ],
+  "license": "none",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~4.0.0"
+  }
+}

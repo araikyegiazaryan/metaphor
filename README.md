@@ -1,2 +1,2 @@
 # CSUN-UI
-A responsive UI toolkit to quickly create prototypes with CSUN branding.
+A responsive UI toolkit to rapidly create prototypes & applications with CSUN branding.
