@@ -1,27 +1,33 @@
 {
-  "name": "csun-ui",
-  "version": "0.0.0",
-  "homepage": "https://github.com/csunmetalab/csun-ui",
+  "name": "metaphor-ui",
+  "version": "0.0.1",
+  "homepage": "https://github.com/csun-metalab/metaphor-ui",
   "authors": [
     "Alex Hernandez <alex@metalab.csun.edu>"
   ],
-  "description": "A responsive UI toolkit to rapidly create prototypes & applications with CSUN branding.",
-  "main": "csun-ui.scss",
+  "description": "A cutting-edge responsive UI toolkit to rapidly create prototypes & applications with CSUN branding.",
+  "main": "scss/metaphor-ui.scss",
   "keywords": [
     "csun",
     "csun-ui",
-    "ui-kit"
+    "ui-kit",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
   ],
   "license": "none",
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
     "vendor/bower_components",
-    "test",
-    "tests"
+    "tests",
+    "docs"
   ],
-  "dependencies": {
-    "bootstrap": "~4.0.0"
+  "devDependencies": {
+    "bootstrap": "~4.0.0",
+    "google-code-prettify": "~1.0.4",
+    "html5shiv": "~3.7.3",
+    "holderjs": "~2.8.2"
   }
 }
