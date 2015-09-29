@@ -430,13 +430,13 @@ $enable-hover-media-query:  false;
 //
 // Define colors for form feedback states and, by default, alerts.
 
-$state-success-text:             #fff;
 $state-success-bg:               #82CEC9;
+$state-success-text:             #fff;
 $state-success-border:           darken($state-success-bg, 5%);
 
 $state-info-text:                #fff;
 $state-info-bg:                  #2CA5DA;
-$state-info-border:              darken($state-info-bg, 7%);
+$state-info-border:              darken($state-info-bg, 5%);
 
 $state-warning-text:             #fff;
 $state-warning-bg:               #FDBF56;
