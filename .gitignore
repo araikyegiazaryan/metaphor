@@ -1,0 +1,8 @@
+# Package Folders
+node_modules
+vendor
+
+# OS or Editor Folders
+.DS_Store
+.cache
+Thumbs.db
