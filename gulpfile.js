@@ -11,5 +11,5 @@ var paths = {
 
 // Create App.css
 elixir(function(mix) {
-  mix.sass('metaphor-ui.scss');
+  mix.sass('metaphor.scss');
 });
