@@ -3,5 +3,5 @@
   "bowerDir": "vendor/bower_components",
   "assetsPath": "",
   "publicPath": "dist",
-  "sourcemaps": false
+  "sourcemaps": true
 }

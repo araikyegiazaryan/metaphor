@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "homepage": "https://github.com/csun-metalab/metaphor",
   "authors": [
-    "Alex Hernandez <alex@metalab.csun.edu>"
+    "Alex Hernandez <info@alejandrohernandez.me>",
+    "Araik Yegiazaryan <hello@araikyegi.com>",
+    "Jonathon Kosla <jonathonkosla@gmail.com>"
   ],
   "description": "A cutting-edge responsive UI toolkit to rapidly create prototypes & applications with CSUN branding.",
   "main": "sass/metaphor.scss",
@@ -17,18 +19,19 @@
     "framework",
     "web"
   ],
-  "license": "none",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "vendor/bower_components",
+    "vendor",
     "tests",
     "docs"
   ],
   "devDependencies": {
-    "bootstrap": "~4.0.0",
     "google-code-prettify": "~1.0.4",
     "html5shiv": "~3.7.3",
-    "holderjs": "~2.8.2"
+    "holderjs": "~2.8.2",
+    "bourbon": "~4.2.5",
+    "neat": "~1.7.2"
   }
 }
