@@ -6,8 +6,16 @@
 * ---------------------------------- */
 
 // Core Variables and Mixins
-@import "partials/variables";
-@import "partials/mixins";
+@import "components/variables";
+@import "components/mixins";
+
+// Reset and dependencies
+@import "components/normalize";
+@import "components/print";
+@import "components/reboot";
+
+// Core styles
+@import "components/type";
 
 // Vendor Libraries
 @import "../vendor/bower_components/bourbon/app/assets/stylesheets/bourbon";
