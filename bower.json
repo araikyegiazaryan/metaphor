@@ -27,12 +27,13 @@
     "tests",
     "docs"
   ],
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "~4.0.0",
     "google-code-prettify": "~1.0.4",
     "html5shiv": "~3.7.3",
     "holderjs": "~2.8.2",
     "bourbon": "~4.2.5",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "normalize-css": "~3.0.3"
   }
 }
