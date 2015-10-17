@@ -6,6 +6,9 @@
 * ---------------------------------- */
 
 // Core Variables and Mixins
-@import "components/variables";
-@import "components/mixins";
-@import "components/reset";
+@import "assets/settings";
+@import "assets/functions";
+@import "assets/variables";
+@import "assets/mixins";
+@import "assets/resets";
+@import "assets/components";

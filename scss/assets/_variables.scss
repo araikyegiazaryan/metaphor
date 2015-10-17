@@ -1,0 +1,131 @@
+
+// METAPHOR BRANDING
+// ========================================== */
+
+// Palette: Primary
+$csun-red: #D00D2D;
+
+// Palette: Secondary
+$csun-scarlet: #E74A37;
+$csun-dark-gray: #55565A;
+$csun-cool-gray: #A9A8A9;
+$csun-light-gray: #BEC6C3;
+
+// Palette: Tertiary
+$csun-iris: #5B4C93;
+$csun-cream: #D8D2C4;
+$csun-azure: #2CA5DA;
+$csun-sea-green: #82CEC9;
+$csun-periwinkle: #92A1CD;
+$csun-golden-yellow: #FDBF56;
+
+// Grayscale
+$black: #000;
+$white: #fff;
+
+$gray: #55595c; // #808080
+$gray-dark: #373a3c; // #4A4A4A
+$gray-darker: #252525;
+$gray-light: #818a91; // #cccccc
+$gray-lighter: #eceeef; // #EFEFEF
+$gray-lightest: #f7f7f9;
+
+// Notices
+$notice-color-primary: #0275d8;
+$notice-color-success: #5cb85c;
+$notice-color-info: #5bc0de;
+$notice-color-warning: #f0ad4e;
+$notice-color-danger: #d9534f;
+
+// Font-Family
+$font-family-sans-serif: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: "garamond-premier-pro", Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// DOM SCAFFOLD
+// ========================================== */
+
+// Body <body>
+$body-bg: $white;
+$font-size-base: 1rem;
+$body-color: $gray-dark;
+$font-family-root: $font-family-base;
+
+// Links <a>
+$link-color: $notice-color-primary;
+$link-hover-color: darken($link-color, 15%);
+$link-hover-decoration: underline;
+
+// Spacing
+$spacer: 1rem;
+$spacer-x: $spacer;
+$spacer-y: $spacer;
+$border-width: .0625rem;
+
+// Heading Row <hr>
+$hr-border-color: rgba(0,0,0,.1);
+$hr-border-width: $border-width;
+
+// TYPOGRAPHY
+// Resources: http://www.modularscale.com
+// ========================================== */
+
+// Type Size in Scalable Components
+$font-size-sm: .85rem;
+$font-size-lg: 1.25rem;
+
+// Font Weights
+$font-weight-thin: 100;
+$font-weight-bold: 500;
+
+// Line Height
+$line-height: 1.5;
+
+// Size Scaling
+$modular-scale-ratio: $golden; // 1.618
+
+// Headlines
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
+
+// Display Headlines
+$font-size-kilo: 3.0rem;
+$font-size-mega: 3.375rem;
+$font-size-giga: 4rem;
+
+// Display Specs
+$headings-color: inherit;
+$headings-line-height: 1.1;
+$headings-font-weight: 100;
+$headings-font-family: inherit;
+$headings-margin-bottom: ($spacer / 2);
+
+// Intro/Lead - Needed?
+
+// Default Text - Needed?
+$text-muted: $gray-light;
+
+// Abbreviations - Needed?
+$abbr-border-color: $gray-light;
+
+// Blockquotes
+$blockquote-small-color: $gray-light;
+$blockquote-font-size: ($font-size-base * 1.25);
+$blockquote-border-color: $gray-lighter;
+
+
+// Tables
+$table-cell-padding: .75rem;
+$table-sm-cell-padding: .3rem;
+
+$table-bg: transparent;
+$table-bg-accent: #f9f9f9;
+$table-bg-hover: #f5f5f5;
+$table-bg-active: $table-bg-hover;
+
+$table-border-color: $gray-lighter;

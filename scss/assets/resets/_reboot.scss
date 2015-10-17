@@ -150,7 +150,13 @@ a {
   color: $link-color;
   text-decoration: none;
 
-  @include hover-focus {
+  // POLYFILL
+  // @include hover-focus {
+  //   color: $link-hover-color;
+  //   text-decoration: $link-hover-decoration;
+  // }
+
+  &:hover{
     color: $link-hover-color;
     text-decoration: $link-hover-decoration;
   }

@@ -6,3 +6,6 @@ vendor
 .DS_Store
 .cache
 Thumbs.db
+
+# Cache Directories
+.sass-cache
