@@ -62,9 +62,7 @@ $link-hover-decoration: underline;
 
 // Spacing
 $spacer: 1rem;
-$spacer-x: $spacer;
-$spacer-y: $spacer;
-$border-width: .0625rem;
+$border-width: .0625rem; // ~1px
 
 // Heading Row <hr>
 $hr-border-color: rgba(0,0,0,.1);
@@ -87,22 +85,12 @@ $font-weight-xbold: 900;
 // Line Height
 $line-height: 1.6;
 
-// Size Scaling
-// $modular-scale-ratio: $perfect-fifth; // ~1.618 : Golden Ratio
-// modular-scale($increment, $modular-scale-base, $modular-scale-ratio)
-
-// Headlines
-// $font-size-h1: 2.5rem;
-// $font-size-h2: 2rem;
-// $font-size-h3: 1.75rem;
-// $font-size-h4: 1.5rem;
-// $font-size-h5: 1.25rem;
-// $font-size-h6: 1rem;
-
-// Display Headlines
-// $font-size-kilo: 3.0rem;
-// $font-size-mega: 3.375rem;
-// $font-size-giga: 4rem;
+// Heading Specs
+$headings-color: inherit;
+$headings-line-height: 1.1;
+$headings-font-weight: $font-weight-thin;
+$headings-font-family: $font-family-sans-serif;
+$headings-margin-bottom: 1rem;
 
 // Display Headlines
 $font-size-giga: modular-scale(5, $font-size-root, $augmented-fourth);
@@ -117,13 +105,6 @@ $font-size-h4: modular-scale(2, $font-size-option, $augmented-fourth);
 $font-size-h5: modular-scale(1, $font-size-root, $augmented-fourth);
 $font-size-h6: modular-scale(1, $font-size-option, $augmented-fourth);
 
-// Heading Specs
-$headings-color: inherit;
-$headings-line-height: 1.1;
-$headings-font-weight: $font-weight-thin;
-$headings-font-family: $font-family-sans-serif;
-$headings-margin-bottom: 1rem;
-
 // Default Text - Needed?
 $text-muted: $gray-light;
 
@@ -132,7 +113,7 @@ $abbr-border-color: $gray-light;
 
 // Blockquotes
 $blockquote-small-color: $csun-red;
-$blockquote-font-size: $font-size-h5;
+$blockquote-font-size: $font-size-h5; // ~25px
 $blockquote-font-weight: $font-weight-thin;
 $blockquote-font-style: italic;
 
@@ -141,8 +122,7 @@ $table-cell-padding: .75rem;
 $table-sm-cell-padding: .3rem;
 
 $table-bg: transparent;
-$table-bg-accent: #f9f9f9;
 $table-bg-hover: #f5f5f5;
+$table-bg-accent: #f9f9f9;
 $table-bg-active: $table-bg-hover;
-
 $table-border-color: $gray-lighter;
