@@ -1,3 +1,5 @@
+// Source: https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss
+
 // Reboot
 //
 // Global resets to common HTML elements and more for easier usage by Bootstrap.
@@ -65,14 +67,21 @@ html {
 }
 
 body {
-  // Make the `body` use the `font-size-root`
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-  line-height: $line-height;
-  // Go easy on the eyes and use something other than `#000` for text
   color: $body-color;
-  // By default, `<body>` has no `background-color` so we set one as a best practice.
+  line-height: $line-height;
   background-color: $body-bg;
+  font-size: $font-size-base;
+  font-family: $font-family-base;
+
+  @if $font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @if $font-rendering {
+    text-rendering: optimizeLegibility;
+  }
+
 }
 
 
@@ -148,7 +157,13 @@ a {
   color: $link-color;
   text-decoration: none;
 
-  @include hover-focus {
+  // POLYFILL
+  // @include hover-focus {
+  //   color: $link-hover-color;
+  //   text-decoration: $link-hover-decoration;
+  // }
+
+  &:hover{
     color: $link-hover-color;
     text-decoration: $link-hover-decoration;
   }

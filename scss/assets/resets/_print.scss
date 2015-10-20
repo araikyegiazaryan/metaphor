@@ -53,22 +53,7 @@
     page-break-after: avoid;
   }
 
-  // Bootstrap specific changes start
-
-  // Bootstrap components
-  .navbar {
-    display: none;
-  }
-  .btn,
-  .dropup > .btn {
-    > .caret {
-      border-top-color: #000 !important;
-    }
-  }
-  .label {
-    border: 1px solid #000;
-  }
-
+  table,
   .table {
     border-collapse: collapse !important;
 
@@ -84,5 +69,4 @@
     }
   }
 
-  // Bootstrap specific changes end
 }
