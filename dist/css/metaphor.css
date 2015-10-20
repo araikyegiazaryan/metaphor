@@ -253,15 +253,17 @@ html {
 @viewport {
   width: device-width; }
 html {
-  font-size: 16px;
+  font-size: 18px;
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
   color: #373a3c;
-  background-color: #fff; }
+  line-height: 1.6;
+  background-color: #fff;
+  font-size: 1rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -377,42 +379,43 @@ output {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: inherit;
-  font-family: inherit;
+  font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   line-height: 1.1;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1rem; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
+  font-size: 50.88863px; }
 
 h2, .h2 {
-  font-size: 2rem; }
+  font-size: 39.58004px; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 35.98913px; }
 
 h4, .h4 {
-  font-size: 1.5rem; }
+  font-size: 27.99154px; }
 
 h5, .h5 {
-  font-size: 1.25rem; }
+  font-size: 25.452px; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 19.796px; }
 
 .giga,
 .mega,
 .kilo {
-  font-weight: 100; }
+  font-weight: 900;
+  margin-bottom: 2rem; }
 
 .giga {
-  font-size: 4rem; }
+  font-size: 101.74652px; }
 
 .mega {
-  font-size: 3.375rem; }
+  font-size: 71.95652px; }
 
 .kilo {
-  font-size: 3rem; }
+  font-size: 55.96618px; }
 
 hr {
   margin-top: 1rem;
@@ -437,5 +440,28 @@ small,
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px; }
+
+.intro {
+  line-height: 1.5;
+  font-weight: 100;
+  font-style: italic;
+  color: #888;
+  font-size: 23px; }
+
+blockquote,
+.blockquote {
+  padding: 1rem 3rem;
+  color: #D00D2D;
+  font-size: 25.452px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 1.5;
+  border-left: 2px solid #D00D2D; }
+  blockquote cite,
+  blockquote .cite,
+  .blockquote cite,
+  .blockquote .cite {
+    color: #888;
+    font-size: 1rem; }
 
 /*# sourceMappingURL=metaphor.css.map */

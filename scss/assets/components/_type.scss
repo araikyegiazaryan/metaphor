@@ -23,7 +23,8 @@ h6, .h6 { font-size: $font-size-h6; }
 .giga,
 .mega,
 .kilo {
-  font-weight: $font-weight-thin;
+  font-weight: $font-weight-xbold;
+  margin-bottom: 2rem;
 }
 
 .giga { font-size: $font-size-giga; }
@@ -61,4 +62,29 @@ small,
     padding-right: 5px;
     padding-left: 5px;
   }
+}
+
+.intro {
+  line-height: 1.5;
+  font-weight: $font-weight-thin;
+  font-style: italic;
+  color: #888;
+  font-size: 23px;
+}
+
+blockquote,
+.blockquote{
+  padding: $spacer ($spacer * 3);
+  color: $blockquote-small-color;
+  font-size: $blockquote-font-size;
+  font-weight: $blockquote-font-weight;
+  font-style: $blockquote-font-style;
+  line-height: 1.5;
+  border-left: 2px solid $csun-red;
+
+  cite,
+  .cite {
+      color: #888;
+      font-size: $font-size-base;
+    }
 }

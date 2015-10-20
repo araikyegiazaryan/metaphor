@@ -41,7 +41,7 @@ $notice-color-danger: #d9534f;
 $font-family-sans-serif: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif: "garamond-premier-pro", Georgia, "Times New Roman", Times, serif;
 $font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
-$font-family-base: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // DOM SCAFFOLD
 // ========================================== */
@@ -51,6 +51,9 @@ $body-bg: $white;
 $font-size-base: 1rem;
 $body-color: $gray-dark;
 $font-family-root: $font-family-base;
+// Font Options:
+$font-smoothing: true;
+$font-rendering: false;
 
 // Links <a>
 $link-color: $notice-color-primary;
@@ -77,35 +80,49 @@ $font-size-lg: 1.25rem;
 
 // Font Weights
 $font-weight-thin: 100;
+$font-weight-normal: 300;
 $font-weight-bold: 500;
+$font-weight-xbold: 900;
 
 // Line Height
-$line-height: 1.5;
+$line-height: 1.6;
 
 // Size Scaling
-$modular-scale-ratio: $golden; // 1.618
+// $modular-scale-ratio: $perfect-fifth; // ~1.618 : Golden Ratio
+// modular-scale($increment, $modular-scale-base, $modular-scale-ratio)
 
 // Headlines
-$font-size-h1: 2.5rem;
-$font-size-h2: 2rem;
-$font-size-h3: 1.75rem;
-$font-size-h4: 1.5rem;
-$font-size-h5: 1.25rem;
-$font-size-h6: 1rem;
+// $font-size-h1: 2.5rem;
+// $font-size-h2: 2rem;
+// $font-size-h3: 1.75rem;
+// $font-size-h4: 1.5rem;
+// $font-size-h5: 1.25rem;
+// $font-size-h6: 1rem;
 
 // Display Headlines
-$font-size-kilo: 3.0rem;
-$font-size-mega: 3.375rem;
-$font-size-giga: 4rem;
+// $font-size-kilo: 3.0rem;
+// $font-size-mega: 3.375rem;
+// $font-size-giga: 4rem;
 
-// Display Specs
+// Display Headlines
+$font-size-giga: modular-scale(5, $font-size-root, $augmented-fourth);
+$font-size-mega: modular-scale(4, $font-size-root, $augmented-fourth);
+$font-size-kilo: modular-scale(4, $font-size-option, $augmented-fourth);
+
+// Display Headlines
+$font-size-h1: modular-scale(3, $font-size-root, $augmented-fourth);
+$font-size-h2: modular-scale(3, $font-size-option, $augmented-fourth);
+$font-size-h3: modular-scale(2, $font-size-root, $augmented-fourth);
+$font-size-h4: modular-scale(2, $font-size-option, $augmented-fourth);
+$font-size-h5: modular-scale(1, $font-size-root, $augmented-fourth);
+$font-size-h6: modular-scale(1, $font-size-option, $augmented-fourth);
+
+// Heading Specs
 $headings-color: inherit;
 $headings-line-height: 1.1;
-$headings-font-weight: 100;
-$headings-font-family: inherit;
-$headings-margin-bottom: ($spacer / 2);
-
-// Intro/Lead - Needed?
+$headings-font-weight: $font-weight-thin;
+$headings-font-family: $font-family-sans-serif;
+$headings-margin-bottom: 1rem;
 
 // Default Text - Needed?
 $text-muted: $gray-light;
@@ -114,10 +131,10 @@ $text-muted: $gray-light;
 $abbr-border-color: $gray-light;
 
 // Blockquotes
-$blockquote-small-color: $gray-light;
-$blockquote-font-size: ($font-size-base * 1.25);
-$blockquote-border-color: $gray-lighter;
-
+$blockquote-small-color: $csun-red;
+$blockquote-font-size: $font-size-h5;
+$blockquote-font-weight: $font-weight-thin;
+$blockquote-font-style: italic;
 
 // Tables
 $table-cell-padding: .75rem;
